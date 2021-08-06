@@ -1,8 +1,8 @@
 <template>
 <!-- <h1>Hola from row</h1> -->
-<Box :place="1" @click="onClick"></Box>
-<Box :place="2" @click="onClick"></Box>
-<Box :place="3" @click="onClick"></Box>
+<Box :place="1" @sendBox="onClick"></Box>
+<Box :place="2" @sendBox="onClick"></Box>
+<Box :place="3" @sendBox="onClick"></Box>
 
 
 </template>
@@ -18,10 +18,13 @@ const props = defineProps({
   }
 })
 
-const {rowNum} = toRefs(props)
+// const {rowNum} = toRefs(props)
 
-function onClick(){
-  console.log("this is rowNum:", rowNum.value)
+function onClick(info){
+  debugger
+  let uniqueId = `This is row: ${props.rowNum}, this is place: ${info}`
+  console.log("here", uniqueId)
+  //console.log("this is rowNum:", rowNum.value)
 }
 
 </script>
