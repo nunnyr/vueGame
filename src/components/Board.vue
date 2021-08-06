@@ -1,10 +1,10 @@
 <template>
 
-<Row :rowNumber="1"></Row>
+<Row :rowNum="1"></Row>
 <br>
-<Row :rowNumber="2"></Row>
+<Row :rowNum="2"></Row>
 <br>
-<Row :rowNumber="3"></Row>
+<Row :rowNum="3"></Row>
 
 
 
