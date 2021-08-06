@@ -1,8 +1,8 @@
 <template>
 <!-- <h1>Hola from row</h1> -->
-<Box></Box>
-<Box></Box>
-<Box></Box>
+<Box :position="place"></Box>
+<Box :position="place"></Box>
+<Box :position="place"></Box>
 
 
 </template>

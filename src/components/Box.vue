@@ -3,9 +3,23 @@
 </template>
 
 <script setup>
-import {ref} from 'vue'
+import {ref, defineProps} from 'vue'
+
+const props = defineProps({
+  props: {
+    place: {
+      type: Number,
+      required: true
+    }
+  }
+})
 
 let toggle = ref("")
+//create new variable to hold state to print out ID for box to the console
+//will be using props to 
+let place = ref(Number)
+
+//define props
 
 
 function onClick(){
