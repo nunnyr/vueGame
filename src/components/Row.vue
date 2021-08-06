@@ -2,7 +2,7 @@
 <!-- <h1>Hola from row</h1> -->
 <Box :place="returnPlace"></Box>
 <Box :place="2"></Box>
-<Box :place="3"></Box>
+<Box></Box>
 
 
 </template>

@@ -7,11 +7,9 @@ import {ref, defineProps, toRefs} from 'vue'
 
 //define props
 const props = defineProps({
-  props: {
     place: {
       type: Number,
       required: true
-    }
   }
 })
 
