@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import Board from './Board.vue'
+import Board from './components/Board.vue'
 
 </script>
 
