@@ -10,7 +10,7 @@ const props = defineProps({
     place: {
       type: Number,
       required: true
-  }
+    }
 })
 
 const { place } = toRefs(props)
@@ -20,8 +20,7 @@ let toggle = ref("")
 //will be using props to 
 
 function onClick(){
-  console.log("clicked")
-  console.log("This is prop", place)
+  // console.log("This is prop", place)
   
   if(toggle.value === ""){
       toggle.value = "X"

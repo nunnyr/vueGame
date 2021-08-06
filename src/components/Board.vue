@@ -1,10 +1,10 @@
 <template>
-<!-- <h1>Anyung ha seyo from board</h1> -->
-<Row></Row>
+
+<Row :rowNumber="1"></Row>
 <br>
-<Row></Row>
+<Row :rowNumber="2"></Row>
 <br>
-<Row></Row>
+<Row :rowNumber="3"></Row>
 
 
 
@@ -12,7 +12,7 @@
 
 <script setup>
 import Row from './Row.vue'
-// import Reset from './Reset.vue'
+
 
 </script>
 

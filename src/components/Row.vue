@@ -9,6 +9,7 @@
 
 <script setup>
 import Box from './Box.vue'
+import {defineProps} from 'vue'
 
 function returnPlace(){
   console.log("inside returnPlace")
