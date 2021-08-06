@@ -1,8 +1,9 @@
-# vueGame
+# TicTacToe Game
 
-#TicTacToe Game
-
-#Stack
+# Stack
 * Vue3
 * Vite
 * Js
+
+# Start
+- `npm run dev`
