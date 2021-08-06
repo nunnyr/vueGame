@@ -21,7 +21,7 @@ let toggle = ref("")
 
 function onClick(){
   console.log("clicked")
-  console.log("?", place)
+  console.log("This is prop", place)
   
   if(toggle.value === ""){
       toggle.value = "X"
