@@ -27,6 +27,8 @@ function onClick(info){
   //console.log("this is rowNum:", rowNum.value)
 }
 
+//note for pushing
+
 </script>
 
 <style></style>
